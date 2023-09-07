@@ -2,14 +2,14 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import Desktop1 from "./pages/Desktop1";
+import MainPage from "./pages/MainPage";
 
 
 function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<Desktop1 />} />
+      <Route path="/" element={<MainPage />} />
     </Routes>
   );
 }
